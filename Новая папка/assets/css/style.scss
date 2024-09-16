@@ -1,0 +1,80 @@
+@font-face {
+    font-family: JetBrains Mono;
+    src: url(../fonts/JetBrainsMono-Medium.ttf);
+    font-weight: 400;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: JetBrains Mono; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.header {
+    &__first {
+      background-color: #4996CD;
+      display: flex;
+      align-items: center; /* Center content vertically */
+      width: 1870px;
+      height: 70px;
+    }
+    &__logo {
+      width: 106px;
+      height: 70px;
+    }
+    &__watch {
+      height: 23px;
+      width: 23px;
+      margin-top: 27px;
+    }
+    &__time {
+      gap: 90px;
+      margin-top: 27px;
+    }
+    &__name {
+      padding: 15px 15px;
+      margin-right: 1380px; 
+    }
+    &__second {
+      background-color: #236AD4;
+      display: flex;
+      align-items: center; /* Center items vertically */
+      padding-left: 106px; /* Align buttons under the "Airline" text */
+      width: 1870px;
+      height: 60px;
+    }
+    &__link {
+      color: #fff;
+    }
+    &__buttoms {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 25px;
+    }
+
+    &__third{
+        
+    }
+
+    &__bg{
+       display: flex;
+       background-position: 0px, 300px;
+        margin-top: 799px;
+        margin-left: -500px;
+        width: 1440px;
+        height: 763px;
+    }
+
+
+  }
